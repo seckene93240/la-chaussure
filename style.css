@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site{
+   
+    margin-left: 5%;
+margin-top: 10vh;
+}
+
+body{
+    display: flex;
+}
+
+#ctrl1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  flex-wrap: wrap; 
+}
+
+img{
+    
+    border-radius: 5%;
+}
+
+
+
+p{
+   display: flex;
+   position: absolute;
+   top: 5;
+   font-size: 40px;
+   color: orange;
+}
+
+.bb{
+    display: flex;
+
+    width: 15%;
+   margin-top: 10%;
+ 
+  gap: 30%;
+ 
+}
+
+.un{
+    background-image: url("/image-product-1.jpg");
+    background-size: cover;
+    padding: 72%;
+    border-radius: 5%;
+   
+}
+
+
+
+h1{
+    margin-top: 5%;font-size: 65px;
+    margin-bottom: 5%;
+}
+
+p12{
+    font-size: 35px;
+    width: 80%;
+}
+
+
+p2{
+    font-size: 70px
+}
+
+#btn1{
+    width: 10%;
+    padding: 2%;
+    font-size: 30px;
+    background-color: rgb(255, 123, 0);
+    border: none;
+}
+
+.papa{
+    margin-top: 10%;
+}
+
+.papa{
+    display: flex;
+    gap: 40px;
+
+}
+
+
+.jtm{
+    display: flex;
+    margin-top: 5%;
+    gap: 2%;
+ 
+}
+
+.btn2{
+    width: 5%;
+    padding: 3%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.btn3{
+    width: 25%;
+    padding: 3%;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 123, 0);
+    border: none;
+}
+
+
+@media (max-width:700px) {
+    p{
+        display: flex;
+        position: relative;
+        top: 5;
+      
+        font-size: 40px;
+        color: orange;
+     }
+    
+}
